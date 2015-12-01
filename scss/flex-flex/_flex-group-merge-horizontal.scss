@@ -1,37 +1,39 @@
-.flex-group-merge-horizontal > .flex-group-merge {
-  > .panel {
-    border-width: 0;
-  }
-}
-
-.flex-group-merge-horizontal > .flex-group-merge-horizontal {
-  > .panel {
-    border-width: em($border-width 0 $border-width 0);
-  }
-  &:first-child > .panel:first-child {
-    border-width: em($border-width 0 $border-width $border-width);
-  }
-  &:last-child > .panel:last-child {
-    border-width: em($border-width $border-width $border-width 0);
-  }
-  &:only-child > .panel:only-child {
-    border-width: em($border-width);
-  }
-}
-
-.flex-group-merge-horizontal > .flex-group-merge-vertical {
-  > .panel {
-    &:first-child {
-      border-top-width: em($border-width);
-    }
-    &:last-child {
-      border-bottom-width: em($border-width);
+.flex-group-merge-horizontal,
+  & > .flex-group-merge {
+    > .panel {
+      border-width: 0;
     }
   }
-  &:first-child > .panel {
-    border-left-width: em($border-width);
+
+  & > .flex-group-merge-horizontal {
+    > .panel {
+      border-width: em($border-width 0 $border-width 0);
+    }
+    &:first-child > .panel:first-child {
+      border-width: em($border-width 0 $border-width $border-width);
+    }
+    &:last-child > .panel:last-child {
+      border-width: em($border-width $border-width $border-width 0);
+    }
+    &:only-child > .panel:only-child {
+      border-width: em($border-width);
+    }
   }
-  &:last-child > .panel {
-    border-right-width: em($border-width);
+
+  & > .flex-group-merge-vertical {
+    > .panel {
+      &:first-child {
+        border-top-width: em($border-width);
+      }
+      &:last-child {
+        border-bottom-width: em($border-width);
+      }
+    }
+    &:first-child > .panel {
+      border-left-width: em($border-width);
+    }
+    &:last-child > .panel {
+      border-right-width: em($border-width);
+    }
   }
 }
