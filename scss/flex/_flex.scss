@@ -1,14 +1,13 @@
 .flex {
   display: flex;
-}
 
-.flex > .panel,
-.flex > .flex {
-  flex: 1;
-}
+  & > &, & > .panel{
+    flex: 1;
+  }
 
-.flex-horizontal {}
+  &-horizontal {}
 
-.flex-vertical {
-  flex-direction: column;
+  &-vertical {
+    flex-direction: column;
+  }
 }
