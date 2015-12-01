@@ -1,0 +1,59 @@
+.panel {
+  @extend %panel;
+}
+.panel-react {
+  @extend %panel-react;
+}
+.panel-react-border {
+  @extend %panel-react-border;
+}
+
+.panel-icon {
+  @extend %panel-icon;
+}
+.panel-icon-left {
+  @extend %panel-icon-left;
+}
+.panel-icon-right {
+  @extend %panel-icon-right;
+}
+
+.flex {
+  @extend %flex;
+}
+.flex-horizontal {
+  @extend %flex-horizontal;
+}
+.flex-vertical {
+  @extend %flex-vertical;
+}
+
+.flex-space {
+  @extend %flex-space;
+}
+.flex-space-horizontal {
+  @extend %flex-space-horizontal;
+}
+.flex-space-vertical {
+  @extend %flex-space-vertical;
+}
+
+.flex-group {
+  @extend %flex-group;
+}
+.flex-group-horizontal {
+  @extend %flex-group-horizontal;
+}
+.flex-group-vertical {
+  @extend %flex-group-vertical;
+}
+
+.flex-group-merge {
+  @extend %flex-group-merge;
+}
+.flex-group-merge-horizontal {
+  @extend %flex-group-merge-horizontal;
+}
+.flex-group-merge-vertical {
+  @extend %flex-group-merge-vertical;
+}

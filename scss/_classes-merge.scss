@@ -1,0 +1,134 @@
+.panel {
+  @extend %panel;
+}
+.panel-react {
+  @extend %panel;
+  @extend %panel-react;
+}
+.panel-react-border {
+  @extend %panel;
+  @extend %panel-react;
+  @extend %panel-react-border;
+}
+
+.panel-icon {
+  @extend %panel;
+  @extend %panel-icon;
+}
+.panel-react-icon {
+  @extend %panel;
+  @extend %panel-react;
+  @extend %panel-icon;
+}
+.panel-react-border-icon {
+  @extend %panel;
+  @extend %panel-react-border;
+  @extend %panel-icon;
+}
+
+.panel-icon-left {
+  @extend %panel;
+  @extend %panel-icon;
+  @extend %panel-icon-left;
+}
+.panel-icon-right {
+  @extend %panel;
+  @extend %panel-icon;
+  @extend %panel-icon-right;
+}
+
+.panel-react-icon-left {
+  @extend %panel;
+  @extend %panel-react;
+  @extend %panel-icon;
+  @extend %panel-icon-left;
+}
+.panel-react-icon-right {
+  @extend %panel;
+  @extend %panel-react;
+  @extend %panel-icon;
+  @extend %panel-icon-right;
+}
+
+.panel-react-border-icon-left {
+  @extend %panel;
+  @extend %panel-react;
+  @extend %panel-react-border;
+  @extend %panel-icon;
+  @extend %panel-icon-left;
+}
+.panel-react-border-icon-right {
+  @extend %panel;
+  @extend %panel-react;
+  @extend %panel-react-border;
+  @extend %panel-icon;
+  @extend %panel-icon-right;
+}
+
+.flex {
+  @extend %flex;
+}
+.flex-horizontal {
+  @extend %flex;
+  @extend %flex-horizontal;
+}
+.flex-vertical {
+  @extend %flex;
+  @extend %flex-vertical;
+}
+
+.flex-space {
+  @extend %flex;
+  @extend %flex-space;
+}
+.flex-space-horizontal {
+  @extend %flex;
+  @extend %flex-horizontal;
+  @extend %flex-space;
+  @extend %flex-space-horizontal;
+}
+.flex-space-vertical {
+  @extend %flex;
+  @extend %flex-vertical;
+  @extend %flex-space;
+  @extend %flex-space-vertical;
+}
+
+.flex-group {
+  @extend %flex;
+  @extend %flex-group;
+}
+.flex-group-horizontal {
+  @extend %flex;
+  @extend %flex-horizontal;
+  @extend %flex-group;
+  @extend %flex-group-horizontal;
+}
+.flex-group-vertical {
+  @extend %flex;
+  @extend %flex-vertical;
+  @extend %flex-group;
+  @extend %flex-group-vertical;
+}
+
+.flex-group-merge {
+  @extend %flex;
+  @extend %flex-group;
+  @extend %flex-group-merge;
+}
+.flex-group-merge-horizontal {
+  @extend %flex;
+  @extend %flex-horizontal;
+  @extend %flex-group;
+  @extend %flex-group-horizontal;
+  @extend %flex-group-merge;
+  @extend %flex-group-merge-horizontal;
+}
+.flex-group-merge-vertical {
+  @extend %flex;
+  @extend %flex-vertical;
+  @extend %flex-group;
+  @extend %flex-group-vertical;
+  @extend %flex-group-merge;
+  @extend %flex-group-merge-vertical;
+}

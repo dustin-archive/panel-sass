@@ -1,0 +1,7 @@
+.panel {
+  padding: em($padding-height $padding-width);
+  border: em($border-width) solid $border-color;
+  border-radius: em($border-radius);
+  background-color: $background-color;
+  color: $color;
+}

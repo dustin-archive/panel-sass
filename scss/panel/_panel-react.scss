@@ -1,0 +1,18 @@
+.panel-react {
+  transition: all $transition-duration;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover, &:focus, &:active {
+    border-color: $border-color-hover;
+    background-color: $background-color-hover;
+    color: $color-hover;
+    z-index: 2;
+  }
+
+  &:active {
+    border-color: $border-color-click;
+    background-color: $background-color-click;
+    color: $color-click;
+  }
+}

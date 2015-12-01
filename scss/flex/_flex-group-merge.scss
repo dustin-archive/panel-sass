@@ -1,0 +1,29 @@
+.flex-group-merge > .panel {
+  margin: 0 !important;
+}
+
+.flex-group-merge-horizontal > .panel {
+  border-width: em($border-width 0);
+
+  &:first-child {
+    border-width: em($border-width 0 $border-width $border-width);
+  }
+  &:last-child {
+    border-width: em($border-width $border-width $border-width 0);
+  }
+}
+
+.flex-group-merge-vertical > .panel {
+  border-width: em(0 $border-width);
+
+  &:first-child {
+    border-width: em($border-width $border-width 0 $border-width);
+  }
+  &:last-child {
+    border-width: em(0 $border-width $border-width $border-width);
+  }
+}
+
+.flex-group-merge > .panel:only-child {
+  border-width: em($border-width);
+}

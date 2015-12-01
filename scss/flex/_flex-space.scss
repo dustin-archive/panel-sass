@@ -1,0 +1,7 @@
+.flex-space-horizontal > .panel + .panel {
+  margin: em(0 0 0 $margin-width);
+}
+
+.flex-space-vertical > .panel + .panel {
+  margin: em($margin-height 0 0 0);
+}
