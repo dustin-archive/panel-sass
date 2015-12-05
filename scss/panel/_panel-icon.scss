@@ -4,12 +4,11 @@
   &::before, &::after {
     font-family: FontAwesome;
   }
-}
 
-.panel-icon-left::before {
-  margin: 0 em($padding-width) 0 0;
-}
-
-.panel-icon-right::after {
-  margin: 0 0 0 em($padding-width);
+  &-left::before {
+    margin: 0 em($padding-width) 0 0;
+  }
+  &-right::after {
+    margin: 0 0 0 em($padding-width);
+  }
 }
