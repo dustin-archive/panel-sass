@@ -1,5 +1,5 @@
 .flex-group {
-  & > .panel {
+  > .panel {
     border-radius: 0;
   }
 
@@ -29,7 +29,7 @@
     }
   }
 
-  & > .panel:only-child {
+  > .panel:only-child {
     border-radius: em($border-radius);
   }
 }
