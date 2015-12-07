@@ -1,9 +1,11 @@
 .sass-cache
 config.codekit
 
+_maybe
+examples
+
 bower_components
 css
-examples
 
 index.html
 index.jade
