@@ -2,6 +2,10 @@
   transition: all $transition-duration;
   cursor: pointer;
   z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
   &:hover, &:focus, &:active {
     border-color: $border-color-hover;
