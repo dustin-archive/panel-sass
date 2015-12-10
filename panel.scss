@@ -1,0 +1,26 @@
+@import 'scss/main';
+
+body {
+  background-color: $color-ui-1;
+  color: $color-ui-4;
+}
+
+.parent {
+  display: flex;
+
+  .child {
+    flex: 1;
+
+    + .child {
+      margin: em(0 0 0 $margin-width * 2);
+    }
+  }
+
+  + .parent {
+    margin: em($margin-width * 2 0 0 0);
+  }
+}
+
+.panel {
+  min-height: em(18);
+}

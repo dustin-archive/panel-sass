@@ -1,0 +1,30 @@
+include jade/panel.jade
+include jade/flex.jade
+
+doctype html
+html(lang='en-us')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width' initial-scale='1')
+
+    title Panel
+    link(href='css/panel.css' rel='stylesheet' type='text/css')
+
+  body
+    include examples/panel.jade
+    include examples/flex.jade
+
+    include examples/flex-group-horz-horz.jade
+    include examples/flex-group-horz-vert.jade
+    include examples/flex-group-vert-vert.jade
+    include examples/flex-group-vert-horz.jade
+
+    include examples/flex-group-merge-horz-horz.jade
+    include examples/flex-group-merge-horz-vert.jade
+    include examples/flex-group-merge-vert-vert.jade
+    include examples/flex-group-merge-vert-horz.jade
+
+    include examples/flex-group-group-merge-horz-horz.jade
+    include examples/flex-group-group-merge-horz-vert.jade
+    include examples/flex-group-group-merge-vert-vert.jade
+    include examples/flex-group-group-merge-vert-horz.jade
