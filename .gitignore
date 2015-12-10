@@ -1,12 +1,4 @@
 .sass-cache
 config.codekit
 
-_maybe
-examples
-
 bower_components
-css
-
-index.html
-index.jade
-panel.scss
