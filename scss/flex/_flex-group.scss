@@ -3,6 +3,14 @@
     border-radius: 0;
   }
 
+  > .panel-react {
+    z-index: 1;
+
+    &:hover, &:focus, &:active {
+      z-index: 2;
+    }
+  }
+
   &-horizontal > .panel {
     + .panel {
       margin: em(0 0 0 (0 - $border-width));
