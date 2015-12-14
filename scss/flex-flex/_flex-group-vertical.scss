@@ -1,11 +1,6 @@
 .flex.-group.-vertical {
-  > .flex.-group {
-    + .flex.-group {
-      margin: em((0 - $border-width) 0 0 0);
-    }
-    > .panel {
-      border-radius: 0;
-    }
+  > .flex.-group + .flex.-group {
+    margin: em((0 - $border-width) 0 0 0);
   }
 
   > .flex.-group.-vertical {

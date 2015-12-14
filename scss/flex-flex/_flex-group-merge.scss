@@ -1,0 +1,8 @@
+.flex.-group.-merge > .flex.-group.-merge {
+  > .panel {
+    border-width: 0;
+  }
+  + .flex.-group.-merge {
+    margin: 0 !important;
+  }
+}

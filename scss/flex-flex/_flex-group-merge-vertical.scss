@@ -1,10 +1,4 @@
 .flex.-group.-merge.-vertical {
-  > .flex.-group.-merge {
-    > .panel {
-      border-width: 0;
-    }
-  }
-
   > .flex.-group.-merge.-vertical {
     > .panel {
       border-width: em(0 $border-width 0 $border-width);
