@@ -1,7 +1,8 @@
 .flex {
   display: flex;
 
-  & > &, > .panel {
+  > .flex,
+  > .panel {
     flex: 1;
   }
 
