@@ -1,9 +1,9 @@
-.flex-group {
+.flex.-group {
   > .panel {
     border-radius: 0;
   }
 
-  > .panel-react {
+  > .panel.-react {
     z-index: 1;
 
     &:hover, &:focus, &:active {
@@ -11,7 +11,7 @@
     }
   }
 
-  &-horizontal > .panel {
+  &.-horizontal > .panel {
     + .panel {
       margin: em(0 0 0 (0 - $border-width));
     }
@@ -24,7 +24,7 @@
     }
   }
 
-  &-vertical > .panel {
+  &.-vertical > .panel {
     + .panel {
       margin: em((0 - $border-width) 0 0 0);
     }

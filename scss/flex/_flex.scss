@@ -5,9 +5,9 @@
     flex: 1;
   }
 
-  &-horizontal {}
+  &.-horizontal {}
 
-  &-vertical {
+  &.-vertical {
     flex-direction: column;
   }
 }

@@ -1,6 +1,6 @@
-.flex-group-horizontal {
-  > .flex-group {
-    + .flex-group {
+.flex.-group.-horizontal {
+  > .flex.-group {
+    + .flex.-group {
       margin: em(0 0 0 (0 - $border-width));
     }
     > .panel {
@@ -8,7 +8,7 @@
     }
   }
 
-  > .flex-group-horizontal {
+  > .flex.-group.-horizontal {
     &:first-child > .panel:first-child {
       border-radius: em($border-radius 0 0 $border-radius);
     }
@@ -20,7 +20,7 @@
     }
   }
 
-  > .flex-group-vertical {
+  > .flex.-group.-vertical {
     &:first-child > .panel {
       &:first-child {
         border-radius: em($border-radius 0 0 0);
