@@ -12,6 +12,9 @@
     background-color: $background-color-hover;
     color: $color-hover;
   }
+  &:focus {
+    outline: none;
+  }
   &:active {
     border-color: $border-color-click;
     background-color: $background-color-click;
