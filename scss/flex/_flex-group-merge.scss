@@ -12,6 +12,9 @@
     &:last-child {
       border-width: em($border-width $border-width $border-width 0);
     }
+    &:only-child {
+      border-width: em($border-width);
+    }
   }
 
   &.-vertical > .panel {
@@ -23,9 +26,8 @@
     &:last-child {
       border-width: em(0 $border-width $border-width $border-width);
     }
-  }
-
-  & > .panel:only-child {
-    border-width: em($border-width);
+    &:only-child {
+      border-width: em($border-width);
+    }
   }
 }
