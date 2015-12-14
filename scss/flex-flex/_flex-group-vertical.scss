@@ -1,14 +1,9 @@
-.flex-group-vertical {
-  > .flex-group {
-    + .flex-group {
-      margin: em((0 - $border-width) 0 0 0);
-    }
-    > .panel {
-      border-radius: 0;
-    }
+.flex.-group.-vertical {
+  > .flex.-group + .flex.-group {
+    margin: em((0 - $border-width) 0 0 0);
   }
 
-  > .flex-group-vertical {
+  > .flex.-group.-vertical {
     &:first-child > .panel:first-child {
       border-radius: em($border-radius $border-radius 0 0);
     }
@@ -20,7 +15,7 @@
     }
   }
 
-  > .flex-group-horizontal {
+  > .flex.-group.-horizontal {
     &:first-child > .panel {
       &:first-child {
         border-radius: em($border-radius 0 0 0);

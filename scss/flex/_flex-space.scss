@@ -1,9 +1,9 @@
-.flex-space {
-  &-horizontal > .panel + .panel {
+.flex.-space {
+  &.-horizontal > .panel + .panel {
     margin: em(0 0 0 $margin-width);
   }
 
-  &-vertical > .panel + .panel {
+  &.-vertical > .panel + .panel {
     margin: em($margin-height 0 0 0);
   }
 }

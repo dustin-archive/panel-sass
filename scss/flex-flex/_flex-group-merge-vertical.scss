@@ -1,11 +1,5 @@
-.flex-group-merge-vertical {
-  > .flex-group-merge {
-    > .panel {
-      border-width: 0;
-    }
-  }
-
-  > .flex-group-merge-vertical {
+.flex.-group.-merge.-vertical {
+  > .flex.-group.-merge.-vertical {
     > .panel {
       border-width: em(0 $border-width 0 $border-width);
     }
@@ -20,7 +14,7 @@
     }
   }
 
-  > .flex-group-merge-horizontal {
+  > .flex.-group.-merge.-horizontal {
     > .panel {
       &:first-child {
         border-left-width: em($border-width);

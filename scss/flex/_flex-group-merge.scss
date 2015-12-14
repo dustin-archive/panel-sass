@@ -1,9 +1,9 @@
-.flex-group-merge {
+.flex.-group.-merge {
   > .panel {
     margin: 0 !important;
   }
 
-  &-horizontal > .panel {
+  &.-horizontal > .panel {
     border-width: em($border-width 0);
 
     &:first-child {
@@ -12,9 +12,12 @@
     &:last-child {
       border-width: em($border-width $border-width $border-width 0);
     }
+    &:only-child {
+      border-width: em($border-width);
+    }
   }
 
-  &-vertical > .panel {
+  &.-vertical > .panel {
     border-width: em(0 $border-width);
 
     &:first-child {
@@ -23,9 +26,8 @@
     &:last-child {
       border-width: em(0 $border-width $border-width $border-width);
     }
-  }
-
-  & > .panel:only-child {
-    border-width: em($border-width);
+    &:only-child {
+      border-width: em($border-width);
+    }
   }
 }
